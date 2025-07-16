@@ -21,7 +21,8 @@ export default function DashboardTabs() {
   return (
     <div className="space-y-12 px-4 md:px-10">
       <Tabs selectedTabClassName="text-blue-600 bg-gray-200" className="space-y-8">
-        <TabList className="text-md grid grid-cols-6 gap-2 rounded-xl bg-gray-100 p-3 text-center font-medium">
+        
+        <TabList className="text-sm sm:text-md grid grid-cols-1 md:grid-cols-6 gap-2 rounded-xl bg-gray-100 p-3 text-center font-medium">
           <Tab className="cursor-pointer rounded-lg px-4 py-2 transition duration-150 hover:bg-gray-200">
             Overview
           </Tab>
